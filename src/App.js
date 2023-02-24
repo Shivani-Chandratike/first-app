@@ -21,13 +21,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Button type='primary' 
-        block 
         loading={loading}
         icon={<PoweroffOutlined />}
         className='my-button'
         onClick={onButtonClick}>
         My First Button
         </Button>
+      
 
         <Button type='primary' 
         
