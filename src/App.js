@@ -25,7 +25,15 @@ function App() {
         loading={loading}
         icon={<PoweroffOutlined />}
         className='my-button'
-        onClick={onButtonClick}>My First Button</Button>
+        onClick={onButtonClick}>
+        My First Button
+        </Button>
+
+        <Button type='primary' 
+        
+        loading={loading}
+        icon={<PoweroffOutlined />}
+        onClick={onButtonClick}>My 2nd Button</Button>
 
       </header>
     </div>
